@@ -6,9 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos - Meu Pet</title>
+
+    <style>
+        body{
+            font-family: Verdana;
+            font-size:16px;
+        }
+
+    .produto{
+        width:180px;
+        transition: transform 0.3s;
+        cursor:pointer;
+    }
+
+    .produto:hover{
+        transform: scale(1.3);
+    }
+        .titulo{
+            text-align:center;
+        }
+    </style>
 </head>
 
-<body style="font-family: Verdana; font-size:16px;">
+<body>
 
     <table align="center" width="1000">
 
@@ -36,48 +56,58 @@
         <tr>
             <td>
 
-                <h2 align="center">Nossos Produtos</h2>
+                <h2 class="titulo">Nossos Produtos</h2>
 
                 <table align="center" cellpadding="20">
 
                     <tr align="center">
+
                         <td>
-                            <img src="produto1.png" width="180" height="180"><br><br>
+                            <img src="produto1.png" class="produto">
+                            <br><br>
                             <b>Ração Premium</b><br>
                             R$ 89,90
                         </td>
 
                         <td>
-                            <img src="produto2.png" width="180" height="180"><br><br>
+                            <img src="produto2.png" class="produto">
+                            <br><br>
                             <b>Coleira</b><br>
                             R$ 39,90
                         </td>
 
                         <td>
-                            <img src="produto3.png" width="180" height="180"><br><br>
+                            <img src="produto3.png" class="produto">
+                            <br><br>
                             <b>Brinquedo</b><br>
                             R$ 24,90
                         </td>
+
                     </tr>
 
                     <tr align="center">
+
                         <td>
-                            <img src="produto4.png" width="180" height="180"><br><br>
+                            <img src="produto4.png" class="produto">
+                            <br><br>
                             <b>Caminha</b><br>
                             R$ 149,90
                         </td>
 
                         <td>
-                            <img src="produto5.png" width="180" height="180"><br><br>
+                            <img src="produto5.png" class="produto">
+                            <br><br>
                             <b>Pote de Água</b><br>
                             R$ 29,90
                         </td>
 
                         <td>
-                            <img src="produto6.png" width="180" height="180"><br><br>
+                            <img src="produto6.png" class="produto">
+                            <br><br>
                             <b>Shampoo Pet</b><br>
                             R$ 34,90
                         </td>
+
                     </tr>
 
                 </table>
